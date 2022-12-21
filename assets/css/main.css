@@ -2596,6 +2596,9 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			margin-left: auto;
+			margin-right: auto; /*making image look centered */
+			width: 40%;
 		}
 
 		.image.left, .image.right {
@@ -2643,7 +2646,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 30%;
 			}
 
 		@media screen and (max-width: 736px) {
